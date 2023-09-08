@@ -59,7 +59,7 @@
 							{
 								"source": {
 									"name": "02 Procedimentos com finalidade diagn�stica",
-									"type": "Int64"
+									"type": "String"
 								},
 								"sink": {
 									"name": "procedimentos_diagnosticos"
@@ -68,7 +68,7 @@
 							{
 								"source": {
 									"name": "03 Procedimentos cl�nicos",
-									"type": "Int64"
+									"type": "String"
 								},
 								"sink": {
 									"name": "procedimentos_clinicos"
@@ -77,7 +77,7 @@
 							{
 								"source": {
 									"name": "04 Procedimentos cir�rgicos",
-									"type": "Int64"
+									"type": "String"
 								},
 								"sink": {
 									"name": "procedimentos_cirurgicos"
@@ -86,7 +86,7 @@
 							{
 								"source": {
 									"name": "05 Transplantes de org�os, tecidos e c�lulas",
-									"type": "Int64"
+									"type": "String"
 								},
 								"sink": {
 									"name": "transplantes"
@@ -95,7 +95,7 @@
 							{
 								"source": {
 									"name": "Total",
-									"type": "Int64"
+									"type": "String"
 								},
 								"sink": {
 									"name": "total"
