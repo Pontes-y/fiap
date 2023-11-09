@@ -1,9 +1,0 @@
-{
-	"name": "enterprise-challenge",
-	"properties": {
-		"globalConfigurations": {
-			"PolicyValidationEnabled": "false"
-		}
-	},
-	"location": "brazilsouth"
-}
