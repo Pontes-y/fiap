@@ -1,0 +1,47 @@
+{
+	"name": "SourceDataset_fsv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "teste"
+			},
+			"columnDelimiter": ";",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Munic�pio",
+				"type": "String"
+			},
+			{
+				"name": "02 Procedimentos com finalidade diagn�stica",
+				"type": "String"
+			},
+			{
+				"name": "03 Procedimentos cl�nicos",
+				"type": "String"
+			},
+			{
+				"name": "04 Procedimentos cir�rgicos",
+				"type": "String"
+			},
+			{
+				"name": "05 Transplantes de org�os, tecidos e c�lulas",
+				"type": "String"
+			},
+			{
+				"name": "Total",
+				"type": "String"
+			}
+		]
+	}
+}

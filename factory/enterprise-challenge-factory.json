@@ -1,0 +1,15 @@
+{
+	"name": "enterprise-challenge-factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned,UserAssigned",
+		"principalId": "80fbce57-501e-4fe5-bc03-8ee97a5e52e5",
+		"tenantId": "11dbbfe2-89b8-4549-be10-cec364e59551",
+		"userAssignedIdentities": {
+			"/subscriptions/6af9bba8-a09c-49b5-8fa9-a5892145c56c/resourcegroups/data-warehouse-enterprise-challenge/providers/Microsoft.ManagedIdentity/userAssignedIdentities/dw-access-enterprise-challenge": {
+				"clientId": "a87d7ec7-b615-46e1-a3a2-f6e99196dc39",
+				"principalId": "ccd55cb8-d957-4260-9b30-e37ba1b56b47"
+			}
+		}
+	}
+}
